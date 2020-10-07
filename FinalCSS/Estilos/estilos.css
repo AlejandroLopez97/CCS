@@ -1,0 +1,593 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color:#78c2fa;
+    width: 100%; height: auto; display: inline-block;
+}
+.red{
+    width: 6.2rem; padding-top: 0.56rem;
+    display: inline-flex;float: right; 
+    margin: -198px 2rem 0 0;
+}
+
+#github:hover{
+    padding-right: 3rem;
+    transition: all .6s ease;
+}
+#instagram:hover{
+    padding-right: 3rem;
+    transition: all .6s ease;
+}
+#twitter:hover{
+    padding-right: 3rem;
+    transition: all .6s ease;
+}
+header h1{
+    font-size: 3.2rem; color: blanchedalmond; padding-left: 2rem;
+}
+header > nav > ul{
+    display: flex; flex-direction: row;
+    position: relative;
+    top: -80px; left: 25rem;
+}
+header > nav > ul > li{
+    padding: 1rem;
+}
+header > nav > ul > li > a{
+    color: blanchedalmond
+}
+header > nav > ul > li > a:hover{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: 92cdf9;
+    border-radius: 4px;
+    color: black;
+    opacity: 2;
+    text-shadow: none !important;
+    transition: all .5s ease-in;
+    padding-right: 1.1rem;
+}
+img{
+    width: 100%; height: auto;
+}
+
+.principal {
+    display: inline-flex; position: relative;
+    top:-400px; right: -200px; text-align: center;
+    background-color: #fdfed6; opacity: 0.6;
+    margin: 0 auto 2em auto; padding: 0; width: 70%; height: auto;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+        
+}
+.principal > h3, p{
+    padding: 0 6em 0 6em;
+
+}
+.main img{
+    border-radius: 10px;
+    width:85%;
+    height:85%;
+    transition-property: width, height;
+    transition-duration: 0.3s,0.5s;
+}
+#playa{
+    margin-top: -7%;
+    width:100%;
+    display: grid;
+    background-color: #fefdee;
+    grid-template-columns: 380px 470px 380px;
+}
+
+#playa .imagen-principal{
+    border-radius: 20px; -moz-border-radius:5px;
+    width: 90%;
+    padding: 10% 20% 5% 10%; 
+}
+#playa .imagen-principal img:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+#playa  h1{
+    text-align: center;
+    font-size: 4.5rem;
+  
+}
+#playa .imagen-secundaria{
+    width: 90%;
+    padding: 10% 20% 5% 10%;
+}
+#playa .imagen-secundaria img:hover{
+    -webkit-filter:blur(2px);
+    -moz-filter:blur(2px);
+    filter:blur(2px);
+}
+
+#parque{
+    width:100%; display:grid;
+    background-color: #f2feee;
+    grid-template-columns: 380px 470px 380px;
+}
+#parque .imagen-principal{
+    border-radius: 20px; -moz-border-radius:5px;
+    width:90%; 
+    padding: 10% 20% 5% 10%;
+}
+#parque .imagen-principal img:hover{
+    -webkit-filter:sepia(100%);
+    -moz-filter:sepia(100%);
+    filter:sepia(100%);
+}
+
+#parque h1{
+    text-align: center; 
+    font-size: 4.5rem;
+}
+#parque .imagen-secundaria{
+    width: 90%;
+    padding: 10% 20% 5% 10%;
+}
+#parque .imagen-secundaria img:hover{
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+
+#rio{
+    width:100%; display:grid;
+    background-color: #fefdee;
+    grid-template-columns: 380px 470px 380px;
+}
+#rio .imagen-principal{
+    border-radius: 20px; -moz-border-radius:5px;
+    width: 90%;
+    padding: 10% 20% 5% 10%; 
+}
+#rio .imagen-principal img:hover{
+    -webkit-filter:brightness(70%);
+    -moz-filter:brightness(70%);
+    filter:brightness(70%);
+}
+
+#rio h1{
+    text-align: center;
+    font-size: 4.5rem;
+}
+#rio .imagen-secundaria{
+    width: 100%;
+    padding: 10% 20% 5% 10%;
+}
+#rio .imagen-secundaria img:hover{
+    -webkit-filter:invert(80%);
+    -moz-filter:invert(80%);
+    filter:invert(80%);
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 600px 650px;
+}
+
+footer .informacion{
+    padding: 5% 0 0 20%;
+}
+footer .contacto h2{padding: 0 0 0 30%; font-size: 2.5rem;}
+
+footer .contacto form{
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:#92cdf9;
+   
+}
+footer .contacto form label{
+    width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+footer .contacto form textarea,form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+footer .contacto form button{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+footer .contacto textarea{
+    width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+.final{
+    text-align: center;
+    background-color: #1b1b1d;
+    color: blanchedalmond;
+    padding: 0 0 10% 0;
+}
+
+
+
+/* Modo phone */
+@media (max-width: 768px) {
+    
+    header > nav > ul{
+        display: flex; flex-direction: row;
+        position: relative;
+        top: 2%; left: 5%;
+    }
+    
+    header .red{ display: none; }
+    footer .red{
+        display: inline-flex;float: left; 
+        padding-top: 50%; padding-bottom: 10%;
+    }
+    img[alt="main"]{
+        height: 50%;
+
+    }
+    .principal {
+        display: grid;
+        grid-template-columns: 80%;
+        width: 55%;
+        top:-250px; right: 0px; text-align: center;
+        background-color: #fdfed6; opacity: 0.6;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px; height: auto; width: auto;   
+    }
+    .principal > h3, p{
+        padding: 0 6em 0 6em;
+    
+    }
+    .main img{
+        border-radius: 10px;
+        width:85%;
+        height:85%;
+        transition-property: width, height;
+        transition-duration: 0.3s,0.5s;
+    }
+    #playa{
+        margin-top: -48%;
+        width:100%;
+        display: grid;
+        background-color: #fefdee;
+        grid-template-columns: 100%;
+    }
+    
+    #playa .imagen-principal{
+        display: none !important;
+    }
+    #playa .imagen-principal img:hover{
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+    }
+    #playa  h1{
+        text-align: center;
+        font-size: 4.5rem;
+      
+    }
+    #playa .imagen-secundaria{
+        width: 90%;
+        padding: 10% 20% 5% 10%;
+    }
+    #playa .imagen-secundaria img:hover{
+        -webkit-filter:blur(2px);
+        -moz-filter:blur(2px);
+        filter:blur(2px);
+    }
+    
+    #parque{
+        width:100%; display:grid;
+        background-color: #f2feee;
+        grid-template-columns: 100%;
+    }
+    #parque .imagen-principal{
+        display:none !important;
+    }
+    #parque .imagen-principal img:hover{
+        -webkit-filter:sepia(100%);
+        -moz-filter:sepia(100%);
+        filter:sepia(100%);
+    }
+    
+    #parque h1{
+        text-align: center; 
+        font-size: 4.5rem;
+    }
+    #parque .imagen-secundaria{
+        width: 90%;
+        padding: 10% 20% 5% 10%;
+    }
+    #parque .imagen-secundaria img:hover{
+        -webkit-filter:grayscale(100%);
+        -moz-filter:grayscale(100%);
+        filter:grayscale(100%);
+    }
+    
+    #rio{
+        width:100%; display:grid;
+        background-color: #fefdee;
+        grid-template-columns: 100%;
+    }
+    #rio .imagen-principal{
+        display:none !important;
+    }
+    #rio .imagen-principal img:hover{
+        -webkit-filter:brightness(70%);
+        -moz-filter:brightness(70%);
+        filter:brightness(70%);
+    }
+    
+    #rio h1{
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    #rio .imagen-secundaria{
+        width: 100%;
+        padding: 10% 20% 5% 10%;
+    }
+    #rio .imagen-secundaria img:hover{
+        -webkit-filter:invert(80%);
+        -moz-filter:invert(80%);
+        filter:invert(80%);
+    }
+    
+    footer{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    footer .informacion{
+        padding: 5% 0 0 20%;
+    }
+    footer .contacto h2{padding: 0 0 0 30%; font-size: 2.5rem;}
+    
+    footer .contacto form{
+        width:300px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        background-color:#92cdf9;
+       
+    }
+    footer .contacto form label{
+        width:72px;
+        font-weight:bold;
+        display:inline-block;
+    }
+    footer .contacto form textarea,form input[type="email"]{
+        width:180px;
+        padding:3px 10px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        margin:8px 0;
+        display:inline-block;
+    }
+    footer .contacto form button{
+        width:100%;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        background-color:#000;
+    } 
+    footer .contacto textarea{
+        width:100%;
+        height:100px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;			
+        margin:8px 0;
+        /*resize: vertical | horizontal | none | both*/
+        resize:none;
+        display:block;
+    }
+}
+
+/* Modo tablet  */
+@media screen and (min-width:769px) and (max-width:1024px) {
+    
+    header > nav > ul{
+        display: flex; flex-direction: row;
+        position: relative;
+        top: 2%; left: 5%;
+    }
+    
+    header .red{ display: none; }
+    footer .red{
+        display: inline-flex;float: left; 
+        padding-top: 50%; padding-bottom: 10%;
+    }
+    img[alt="main"]{
+        height: 50%;
+
+    }
+    .principal {
+        display: grid;
+        grid-template-columns: 80%;
+        width: 55%;
+        top:-250px; right: 0px; text-align: center;
+        background-color: #fdfed6; opacity: 0.6;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px; height: auto; width: auto;   
+    }
+    .principal > h3, p{
+        padding: 0 6em 0 6em;
+    
+    }
+    .main img{
+        border-radius: 10px;
+        width:85%;
+        height:85%;
+        transition-property: width, height;
+        transition-duration: 0.3s,0.5s;
+    }
+    #playa{
+        margin-top: -20%;
+        width:100%;
+        display: grid;
+        background-color: #fefdee;
+        grid-template-columns: 50% 50%;
+    }
+    
+    #playa .imagen-principal{
+        display: none !important;
+    }
+    #playa .imagen-principal img:hover{
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+    }
+    #playa  h1{
+        text-align: center;
+        font-size: 4.5rem;
+      
+    }
+    #playa .imagen-secundaria{
+        width: 90%;
+        padding: 10% 20% 5% 10%;
+    }
+    #playa .imagen-secundaria img:hover{
+        -webkit-filter:blur(2px);
+        -moz-filter:blur(2px);
+        filter:blur(2px);
+    }
+    
+    #parque{
+        width:100%; display:grid;
+        background-color: #f2feee;
+        grid-template-columns: 50% 50%;
+    }
+    #parque .imagen-principal{
+        display:none !important;
+    }
+    #parque .imagen-principal img:hover{
+        -webkit-filter:sepia(100%);
+        -moz-filter:sepia(100%);
+        filter:sepia(100%);
+    }
+    
+    #parque h1{
+        text-align: center; 
+        font-size: 4.5rem;
+    }
+    #parque .imagen-secundaria{
+        width: 90%;
+        padding: 10% 20% 5% 10%;
+    }
+    #parque .imagen-secundaria img:hover{
+        -webkit-filter:grayscale(100%);
+        -moz-filter:grayscale(100%);
+        filter:grayscale(100%);
+    }
+    
+    #rio{
+        width:100%; display:grid;
+        background-color: #fefdee;
+        grid-template-columns: 50% 50%;
+    }
+    #rio .imagen-principal{
+        display:none !important;
+    }
+    #rio .imagen-principal img:hover{
+        -webkit-filter:brightness(70%);
+        -moz-filter:brightness(70%);
+        filter:brightness(70%);
+    }
+    
+    #rio h1{
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    #rio .imagen-secundaria{
+        width: 100%;
+        padding: 10% 20% 5% 10%;
+    }
+    #rio .imagen-secundaria img:hover{
+        -webkit-filter:invert(80%);
+        -moz-filter:invert(80%);
+        filter:invert(80%);
+    }
+    
+    footer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    footer .informacion{
+        padding: 5% 0 0 20%;
+    }
+    footer .contacto h2{padding: 0 0 0 30%; font-size: 2.5rem;}
+    
+    footer .contacto form{
+        width:300px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        background-color:#92cdf9;
+       
+    }
+    footer .contacto form label{
+        width:72px;
+        font-weight:bold;
+        display:inline-block;
+    }
+    footer .contacto form textarea,form input[type="email"]{
+        width:180px;
+        padding:3px 10px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        margin:8px 0;
+        display:inline-block;
+    }
+    footer .contacto form button{
+        width:100%;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        background-color:#000;
+    } 
+    footer .contacto textarea{
+        width:100%;
+        height:100px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;			
+        margin:8px 0;
+        /*resize: vertical | horizontal | none | both*/
+        resize:none;
+        display:block;
+    }
+}
