@@ -1,0 +1,40 @@
+*{
+    font-family: helvetica;
+    margin: 20px 10px 5px 15px;
+}
+header h1{
+    padding: 3%;
+    margin: 0;
+}
+#logo{
+    width: 4em;
+    border-radius: 50%;
+}
+#menu-principal{
+    float: left;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+#menu-principal ul li{
+    list-style: none;
+    padding: 10px;
+}
+#menu-principal ul li a:link{
+    text-decoration: none;
+}
+#menu-principal ul li a:hover{
+    text-decoration: underline;
+}
+#contenido{
+    margin-left: 200px;
+}
+#contenido p img{
+    float: right;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+    opacity: 0.8;
+    margin-top: 10%;
+}
