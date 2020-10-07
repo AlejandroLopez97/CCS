@@ -1,0 +1,35 @@
+head{
+    font-family: helvetica;
+}
+body{
+    font-family: helvetica;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#degradado{
+    background: -webkit-linear-gradient(blue,aqua);
+ 
+}
+#ur{
+    background-color: rgb(206, 255, 239);
+    text-align: center;
+        
+}
+h3{
+    background-color: rgb(245, 245, 75);
+}
+hr{
+    color: rgb(58, 189, 176);
+}
+.enlace{
+    color:rgb(4, 10, 31);
+}
+footer{
+    background: -webkit-linear-gradient(aqua,blue);
+}
+.resaltado{
+    background-color: yellow;
+}
